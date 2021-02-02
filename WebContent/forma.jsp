@@ -8,13 +8,23 @@
 </head>
 
 <body>
-	<form method="post" action="Form">
+	<form method="post" action="DataServlet">
 
-		<p>Ime: <b>${ime}</b></p>
-		<p>Prezime: <b>${prezime}</b></p>
-		<p>Datum rodenja: <b>${datumRodjenja}</b></p>
-		<p>Email: <b>${email}</b></p>
-		<p>Adresa:<b>${adresa}</b></p>
+		<p>
+			Ime: <b>${ime}</b>
+		</p>
+		<p>
+			Prezime: <b>${prezime}</b>
+		</p>
+		<p>
+			Datum rodenja: <b>${datumRodjenja}</b>
+		</p>
+		<p>
+			Email: <b>${email}</b>
+		</p>
+		<p>
+			Adresa:<b>${adresa}</b>
+		</p>
 
 		<input type="submit" value="Submit" />
 
